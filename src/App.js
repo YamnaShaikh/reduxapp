@@ -15,8 +15,8 @@ function App() {
     <BrowserRouter>
      <Navbar />
     <Routes>
-    <Route exact path="/" element={<User  />} />
-      <Route path="/list" element={<List  />} />
+    <Route exact path="/" element={<User />} />
+      <Route path="/list" element={<List />} />
     </Routes>
   </BrowserRouter>
   );
